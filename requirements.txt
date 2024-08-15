@@ -1,0 +1,25 @@
+pip install onnx2tf==1.17.5
+pip install sng4onnx==1.0.1
+pip install onnxsim==0.4.33
+pip install onnx_graphsurgeon>=0.3.26
+pip install tflite_support
+pip install onnxruntime
+pip install jax==0.4.21 
+pip install jaxlib==0.4.21 
+pip install tensorflowjs
+
+yolo mode=export task=detect model=bottledetection.pt format=tfjs
+
+opencv-python~=4.9.0.80
+ultralytics~=8.1.13
+tensorflow~=2.15.0
+supervision~=0.2.1
+numpy~=1.24.3
+pandas~=2.2.0
+matplotlib~=3.8.2
+scikit-learn~=1.2.2
+torchvision~=0.16.2
+torch~=2.1.2+cu118
+tqdm~=4.66.1
+scipy~=1.12.0
+keras~=2.15.0
